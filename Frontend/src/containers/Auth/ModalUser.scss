@@ -1,0 +1,14 @@
+.login-input {
+  margin: 7px 0;
+
+  .custom-input-password {
+    position: relative;
+    i {
+      position: absolute;
+      right: 5px;
+      top: 10px;
+      margin-top: -1px;
+      cursor: pointer;
+    }
+  }
+}

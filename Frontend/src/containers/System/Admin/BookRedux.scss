@@ -1,0 +1,37 @@
+.search {
+  margin: 15px 0;
+
+  .input-search {
+    // margin-left: 100px;
+    padding: 8px;
+    width: 500px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #000;
+  }
+}
+
+form {
+  width: 575px;
+  .label-upload {
+    padding: 17px;
+    border-radius: 3px;
+    background: #ddd;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+form {
+  .preview-image {
+    border: 1px solid #ddd;
+    height: 250px;
+    width: 50%;
+    background: center center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+}
